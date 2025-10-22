@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #9494f8, #EE82EE);
+    font-family: "BBH Sans Hegarty", sans-serif;
+    height: 100vh;
+    color: rgb(48, 47, 47);
+}
+form {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+#itemForm {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid #D3D3D3;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #5656fe;
+    color: #ddd;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: "BBH Sans Hegarty", sans-serif;
+}
+
+button:hover{
+    background-color: #a2d1ff;
+}
+
+#errorMessage {
+    color: #FF0000;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+#daftar {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#daftar li {
+    margin-bottom: 10px;
+    color: #414040;
+    font-size: 14px;
+}
+.invalid {
+    border-color: #FF0000;
+}
+
+.valid {
+    border-color: #4bfc4b;
+}
